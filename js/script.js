@@ -2,31 +2,38 @@ const team = [
     {
         nome : "Wayne Barnett",
         ruolo : "Founder & CEO",
-        foto : "wayne-barnett-founder-ceo.jpg"
+        foto : "wayne-barnett-founder-ceo.jpg",
     },
     {
         nome : "Angela Caroll",
         ruolo : "Chief Editor",
-        foto : "angela-caroll-chief-editor.jpg"
+        foto : "angela-caroll-chief-editor.jpg",
     },
     {
         nome : "Walter Gordon",
         ruolo : "Office Manager",
-        foto : "alter-gordon-office-manager.jpg"
+        foto : "alter-gordon-office-manager.jpg",
     },
     {
         nome : "Angela Lopez",
         ruolo : "Social Media Manager",
-        foto : "angela-lopez-social-media-manager.jpg"
+        foto : "angela-lopez-social-media-manager.jpg",
     },
     {
         nome : "Scott Estrada",
         ruolo : "Developer",
-        foto : "wayne-barnett-founder-ceo.jpg"
+        foto : "wayne-barnett-founder-ceo.jpg",
     },
     {
         nome : "Barbara Ramos",
         ruolo : "Graphic Designer",
-        foto : "barbara-ramos-graphic-designer.jpg"
+        foto : "barbara-ramos-graphic-designer.jpg",
     },
 ]
+
+
+for (let i = 0; i < team.length; i++){
+    console.log(team[i].nome);
+    console.log(team[i].ruolo);
+    console.log(team[i].foto);
+} 
