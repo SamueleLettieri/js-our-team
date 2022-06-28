@@ -36,7 +36,8 @@ const team = [
 
 
 for (let i = 0; i < team.length; i++){
-    element.innerHTML += team[i].nome;
-    element.innerHTML += team[i].ruolo;
-    element.innerHTML += team[i].foto;
+    element.innerHTML += team[i].nome + "</br>";
+    element.innerHTML += team[i].ruolo + "</br>";
+    element.innerHTML += team[i].foto + "</br>";
 } 
+
